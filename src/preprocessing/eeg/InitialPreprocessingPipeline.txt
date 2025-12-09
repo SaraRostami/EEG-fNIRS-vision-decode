@@ -1,0 +1,18 @@
+Step0_ Run MakeTriggerFile.m
+Step1_ Run AppendFiles.m
+Step2_ Run KeepS1Events.m
+Step3_ Run ChangeTriggerNames.m -> save session1_trigfix
+Step4_ Downsample (250 Hz) -> save session1_trigfix_ds
+Step5_ Low-Pass Filter (50 Hz) -> session1_trigfix_ds_lp
+Step6_ Visual Rejection (View Settings: Remove DC offset, Scale: 80, time window: 25sec)
+Step7_ Re-reference
+Step8_ One Channel Rejection (Skiped)
+Step9_ High-Pass filter
+Step10_ ICA
+Step11_ Run Copy_ICs_to_nonHp.m (Copy the ICs information to non-high-pass filtered dataset)
+Step12_ IC Rejection (Remove components associated with blinks and saccades)
+Step13_ Channel Interpolation
+Step14_ High-Pass Filter 0.1
+Step15_ Epoch the Data & Baseline Correction
+Step16_ Run Trial Rejection (Epochs containing amplitudes exceeding ±100µV from baseline at any of the 128 scalp channels)
+
