@@ -1,0 +1,11 @@
+
+# Ignore Data Files
+*.bdf
+*.nirs
+*.fif
+*.csv
+*.npy
+
+# Ignore System Files
+.DS_Store
+__pycache__/
