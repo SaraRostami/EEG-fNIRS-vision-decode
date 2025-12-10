@@ -5,7 +5,9 @@ This project investigates how visual information and stimulus memorability are r
 
 ## Goals
 **Multimodal Integration:** Combine EEG’s high temporal precision with fNIRS’s spatial sensitivity to understand neural dynamics during visual perception.
+
 **Decoding:** Use Multivariate Pattern Analysis (MVPA), specifically SVMs and logistic regression, to decode stimulus category and memorability from neural patterns.
+
 **Encoding:** Implement deep learning models (CNNs and Transformers) to bridge computational visual features with biological neural signals.
 
 ## Current Status
